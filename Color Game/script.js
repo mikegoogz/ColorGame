@@ -2,7 +2,7 @@
 function makeColourValue(){
   return Math.round(Math.random() * 255);
 }
-makeColourValue();
+//makeColourValue();
 
 //selects buttons and assigns them a random color
 function setButtonColour(button,red,green,blue){
@@ -12,7 +12,7 @@ function setButtonColour(button,red,green,blue){
 setButtonColour();
 //allow access of element button,headings using the class and id name
 var buttons=document.getElementsByClassName('colourButton');
-var heading=document.getElementsById('colourValue');
+var heading=document.getElementById('colourValue');
 var answerMessage=document.getElementById('answer');
 
 function startGame(){
